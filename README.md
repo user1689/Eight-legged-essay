@@ -10,7 +10,7 @@ FrameWork
 - SpringSecurity
 
 DB
-- MYSQL
+- MySql
 
 MiddleWare
 - Redis
