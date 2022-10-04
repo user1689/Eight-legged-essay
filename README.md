@@ -24,7 +24,7 @@ NetWork
   - `Http/2`  
     Http/2 allows for multiplexing (requesting multiple data files at the same time), which significantly imporves both site performance and server efficiency. 
 
-- Communication way of server and client
+- Communication way of server and client  
   Polling is a request way based on AJAX.
   - `short polling`  
     Lots of requests that are processed as they come on the server, so it will create a lot of traffic. 
