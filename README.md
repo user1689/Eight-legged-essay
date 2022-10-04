@@ -26,7 +26,7 @@ NetWork
 
 - Communication way of server and client
   Polling is a request way based on AJAX.
-  - `short polling`
+  - `short polling`  
     Lots of requests that are processed as they come on the server, so it will create a lot of traffic. 
   - `long pollling`  
     long polling is a technique which server will hold connection until data is ready or timeout. After client get response, it will send the next request immediately. So the traffic is smaller, but you eat up your resources fast.
