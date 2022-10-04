@@ -29,7 +29,7 @@ NetWork
   - `short polling`  
     Lots of requests that are processed as they come on the server, so it will create a lot of traffic. 
   - `long pollling`  
-    long polling is a technique which server will hold connection until data is ready or timeout. After client get response, it will send the next request immediately. So the traffic is smaller, but you eat up your resources fast.
+    long polling is a technique which server will hold connection until data is ready or timeout. After client get response, it will send the next request immediately. So the traffic is smaller, but it will eat up resources fast.
   - `server send event`  
-    sse base on Http/1.1 or Htpp/2, it will create a one-way communication channel where events flow from server to client only, which means it allows clients to receive a stream of events from a server over an HTTP connection without polling per connection. 
+    sse base on Http/1.1 or Htpp/2, it will create a one-way communication channel where events flow from server to client only over an HTTP without polling per connection. 
   - `WebSockt`  
