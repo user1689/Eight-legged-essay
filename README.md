@@ -11,7 +11,7 @@ FrameWork
 - SpringSecurity
 - SpringCloud
   - Gateway
-  - Feigh
+  - OpenFeign
   - 
 
 DB
@@ -22,6 +22,7 @@ MiddleWare
 - ElasticSearch 
 
 OS
+- Turing machine
 
 NetWork
 - `Tcp`
