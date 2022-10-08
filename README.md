@@ -76,10 +76,99 @@ MiddleWare
 
     - `layered system`
 
-      Layers are servers that sit between client and server for identifying spam or improving performace. 
+      Layers are servers that sit between client and server for identifying spam or improving performace. In REST, layers are modular and can be added and removed without affecting the messages between the client and the API server.
 
     - `cacheable`
 
-      Server response indicate whether or not the resources is cacheable, so that clients are cache any resources to improve performance.
+      Server response indicate whether or not the resources is cacheable, so that clients can cache any resources to improve performance.
 
+  - `Makeup Languages `
+  
+    - `XML` (extensible markup language)
+    - `JSON `(JavaScript Object Notation)
+  
+  - Supported HTTP methods
+  
+    - `POST` creates a new resource on server
+    - `GET` requests a resource from the server
+    - `PUT`  updates a resource from the server
+    - `DELETE`  delete a resource from the server
+    - `HEAD` requests meta-information about a resource. This request is similar to GET, but the response does not include a response body
+    - `OPTIONS` retrieves a list of possible methods for a resources
+  
+  - Difference between `POST` and `PUT`
+  
+    
+  
+  - `CRUD`
+  
+    These are the four basic actions that can be performed on databases through a REST API. Each action corresponds to an HTTP request method:
+  
+    - `C` -> POST
+    - `R` -> GET
+    - `U` -> PUT
+    - `D` -> DELETE
+  
+  - `HTTP `request
+  
+    - `StartLine`
+  
+      - Request method
+      - URI
+      - HTTP version
+  
+    - `HTTP request Header`
+  
+      It includes request meta-data, such as, the user agent, file formats the client will accept, format of request body, caching preference
+  
+    - `HTTP request Body`
+  
+      Contains any data associated with the request
+  
+  - `HTTP`response
+  
+    - `HTTP version`
+    - `Status line`
+    - `HTTP` response Header
+    - `HTTP` respnose Body
+  
+  - `HTTP` response status codes
+  
+    - `1xx` represents informational responses eg: 102 Processing
+    - `2xx` represents successful responses
+    - `3xx` represents redirects
+    - `4xx` represents client errors
+    - `5xx` represents server errors
+    - `200`
+    - `201`
+    - `301`
+    - `302`
+    - `400`
+    - `401`
+    - `403`
+    - `404`
+    - `500`
+    - `502`
+    - `503`
+  
+  - `Resource`
+  
+    In REST, every accessible piece of content on the server is labeled as a resource.
+  
+  - `URI`
+  
+    `URI` stands for uniform resource identifier. In REST, a URI is a string that identifies a resource on a web server. Each resource has its own unique URI, allows clients to target that resource and perform actions on it. 
+  
+    eg: `protocol://service-name/resource-type/resource-id`
+  
+  - `Caching`
+  
+    
+  
+  - `Payload`
+  
+    Payload refers to the data in the request body of POST methods. It is not same as request paramters. 
+  
+    Hence, it is not possible to send payload data in GET or DELETE methods.
+  
   - 
