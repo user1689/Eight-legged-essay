@@ -2,7 +2,15 @@ loading...
 
 #### Programming language
 
+- OOP
+
+  OOP is a programming paradigm based on "objects". Objects can bse considered as real-world instances of entities like class, that have some characteristics and behaviors.
+
+  - 
+  - 
+
 - Java SE
+
 - Java Thread
 
 FrameWork
@@ -171,4 +179,25 @@ MiddleWare
   
     Hence, it is not possible to send payload data in GET or DELETE methods.
   
-  - 
+  - `AJAX`
+  
+    Asynchronous JavaScript, or AJAX, is a set of web development techniques used in web applications. At its core, AJAX allows a web page to make requests to a server and update the page interface without needing to refresh.
+  
+  - Benefits of REST
+  
+    - 
+  
+  - DrawBacks of REST
+  
+    - While statelessness is a benefit of REST, it can sometimes be a disadvantage too. In other words, the server does not keep records of past interactions.
+  
+    - REST is less strict with its security 
+  
+    - How to improve? 
+      - Authentication and authorization
+        - Simply put, authentication is the process of verifying who someone is, whereas authorization is the process of verifying what specific applications, files, and data a user has access to.
+        - 
+      - Validation
+      - Encryption
+      - Rate-limiting
+      - No sensitive information in URIs
