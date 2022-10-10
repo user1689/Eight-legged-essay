@@ -6,8 +6,68 @@ loading...
 
   OOP is a programming paradigm based on "objects". Objects can bse considered as real-world instances of entities like class, that have some characteristics and behaviors.
 
-  - 
-  - 
+  - `Encapsulation`
+
+    Encapsulation is used to bind together both data and methods which manipulate those data, to make sure that certain data can only be used in a proper way and keep them safe from outside. 
+
+    - Data hiding 
+
+      Hiding some informaiton, such as restricting access to any fields or methods of an object.
+
+    - Data binding 
+
+      Binding fields and methods together as a class.
+
+    - Flexsibility and Reusability 
+
+      Can make the variables of a class to be read-only or write-only, by only providing the get methods or the set methods.  Can always reuse part of code or modify with new requirements. 
+
+  - `Inheritence`
+
+    Inheritance not only helps to keep the implementation simpler but also helps to facilitate code reuse. Subclass will inherit the fields and methods from superclass, and not inherit constructors. If the an instance of subclass is created, the constructor of superclass will be called before the constructor of subclass.
+
+    - `Overriding`
+
+      Methods overriding allows subclass provide different implementation of method that already provided by superclass. So the implementation in the subclass will rewrite the method in superclass.
+
+      If an object of a superclass is used to invoke the method, then the method in the superclass will be executed; if an object of the subclass is used to invoke it, then the method in the subclass will be executed. Notice it's the type of the object being instantiated (not the type of the reference variable) that determines which version of the method should be executed.  
+
+  - `Polymorphism`
+
+    Polymorphism is the ability of an object to take on multiple forms. So with polymorphism, same reference, but different implementations. 
+
+    - `static` 
+
+      static polymorphism allows a class to have multiple methods that use the same name, but different signatures (method signature may indicate the number, types or sequences of parameters) with 
+
+      different implementations. The compiler will determine which method to be invoked at the compiling time. 
+
+    - `dynamic`
+
+      In Java, dynamic polymorphism can't be achieved by the compiler. Instead, the JVM will do that at runtime. It occurs mostly in inheritance with method overriding. When you declare a superclass variable and assign it with a subclass object, in this way, the method in the subclass should be invoked, and this is called `upcasting`.
+
+  - Override vs Overload
+
+    - Methods overload is about same method name with different signatures (types, number, order) in same class, Methods override is about same method name with same signatures but in different class connected with inheritence.
+    - Override represents dynamic polymorphism, Overload represents static polymorphism.
+
+  - `Interface`
+
+    It is blueprint of class, which enforces some behaviors a class has to do without 
+
+  - `Abstract`
+
+    - `Abstract method`
+
+       xxx
+
+    - `Abstract class`
+
+      Xxx
+
+  - `Garbage Collection`
+
+    
 
 - Java SE
 
