@@ -53,21 +53,40 @@ loading...
 
   - `Interface`
 
-    It is blueprint of class, which enforces some behaviors a class has to do without 
+    It is blueprint of class, which enforces some behaviors a class has to do without telling how to do that. In Java, all methods in interface should be public and abstract, and all fields should be public static and final. Interface can not be instantiated. A class can implement more than one interface, and interface can extends multiple interfaces.  
+
+    - `Default` 
+
+      Default allow us to add new methods to an interface that are automatically available in the implementations. But it will cause the code simply won't compile, as there's a conflict caused by multiple interface inheritance. (a.k.a the Diamond Problem).
+
+    - `static` 
+
+      Static allows us to increase the degree of [cohesion](https://en.wikipedia.org/wiki/Cohesion_(computer_science)) of a design by putting together related methods in one single place without having to create an object.
+
+      > ​	https://www.baeldung.com/java-static-default-methods
 
   - `Abstract`
 
     - `Abstract method`
 
-       xxx
+      A method that is declared, but contains no implementation. 
 
     - `Abstract class`
 
-      Xxx
+      A class contains one or more abstract methods. Abstract class cannot be instantiate and requires subclasses to provide implementations for its abstract methods. So abstract class provides a way where classes can only be inherited but not instantiated.
+
+  - `Abstract class` vs `Interface`
+
+    -  Interfaces contain only abstract methods (before Java8) and therefore methods are by default abstract without being declared with keyword. Abstract class can have both abstract and non-abstract methods, and so abstract methods must be declared with keyword "abstract". 
+    - Variables in interfaces are by default static and final while in abstract classes they can be static or non-static, final or non-final.
+    - Abstract class can implement one or multiple interface using keyword "implements", abstract class can extend only one class (either abstract or non-abstract, considering the Object class). An interface can extend multiple interfaces. 
+    - Fields and methods in an interface are public by default, while members in an abstract class can also be protected or private. 
 
   - `Garbage Collection`
 
-    
+    - xxx
+
+      > https://www.geeksforgeeks.org/island-of-isolation-in-java/#:~:text=Basically%2C%20an%20island%20of%20isolation,an%20island%20of%20isolation%20too.
 
 - Java SE
 
