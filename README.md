@@ -279,6 +279,9 @@ loading...
     - `HTTP request Body`
   
       Contains any data associated with the request
+      
+      - Form data
+      - Payload
   
   - `HTTP`response
   
