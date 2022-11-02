@@ -187,6 +187,8 @@ loading...
 
 - `Tcp` 
 
+  - additive-increase/multiplicative-decrease (AIMD)
+
 - `Http` 
   
   - `Https`  
@@ -297,8 +299,8 @@ loading...
     - `3xx` represents redirects
     - `4xx` represents client errors
     - `5xx` represents server errors
-    - `200`
-    - `201`
+    - `200` represents success
+    - `201` 
     - `301`
     - `302`
     - `400`
@@ -351,3 +353,29 @@ loading...
       - Encryption
       - Rate-limiting
       - No sensitive information in URIs
+
+#### Problems
+
+- Slow SQL
+
+  - Time
+
+    
+
+  - Phenomenon -> indicators before solving problem
+
+    
+
+  - How to troubleshoot
+
+    
+
+  - indicators after solving problem
+
+    
+
+- CPU Soars
+
+- Memory Leaking
+
+- Full GC
