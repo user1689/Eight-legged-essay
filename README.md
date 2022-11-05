@@ -186,8 +186,10 @@ loading...
 #### NetWork
 
 - `Tcp` 
+  
+  - 3-way handshake and 4-way handshake  
+  - additive-increase/multiplicative-decrease (AIMD)  
 
-  - additive-increase/multiplicative-decrease (AIMD)
 
 - `Http` 
   
