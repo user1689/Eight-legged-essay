@@ -103,58 +103,58 @@ loading...
 
 #### JavaEE
 
-- JDBC
-
-  JDBC(Java Database Connectivity) is a group of public interfaces provide by Sun. It has two parts. One called `Java Driver API` is for Database factory who want to provide connection service. Another called `Java API` is for developer, which can help developer unite development logic and develop base on interface-oriented.
-
-  - Statement
-
-    - problems
-      - Complex
-      - SQL Injection
-      - can not manipulate blob type data
-
-  - PreparedStatement
-
-    DBserver will cache prepared statement compiled. When same prepared statement invoked again, DBServer will directly execute prepared statement compiled.
-
-  - ORM
-
-    ORM refers to Object Relationship mapping
-
-    - One table represents one class
-    - One row represents one object
-    - One columnlabel represents one field
-
-  - Transaction
-
-    Either all manipulations complete and commit or all manipulate rollback.
-
-    - features
-
-      - Atomicity 
-
-        Either success or fail
-
-      - Consistence 
-
-        State before execution equals state after execution
-
-      - Isolation 
-
-        - read uncomited -> dirty read -> read commited
-        - read commited -> non-repeatable read -> repeatable read
-        - repeatable read -> phantom /ˈfan(t)əm/ read -> serialize
-
-      - Durability 
-
-        Once commit, the change are permanent
-
-  - Connection Pool
-
-    Create a "buffer pool" for database connections. Put a certain number of connections in the buffer pool in advance. When you need to establish a database connection, you only need to take one out of the "buffer pool" and put it back after use, which simplify database management and improve efficiency.
-
 - JavaWeb
+
+  - JDBC
+
+    JDBC(Java Database Connectivity) is a group of public interfaces provide by Sun. It has two parts. One called `Java Driver API` is for Database factory who want to provide connection service. Another called `Java API` is for developer, which can help developer unite development logic and develop base on interface-oriented.
+
+    - Statement
+
+      - problems
+        - Complex
+        - SQL Injection
+        - can not manipulate blob type data
+
+    - PreparedStatement
+
+      DBserver will cache prepared statement compiled. When same prepared statement invoked again, DBServer will directly execute prepared statement compiled.
+
+    - ORM
+
+      ORM refers to Object Relationship mapping
+
+      - One table represents one class
+      - One row represents one object
+      - One columnlabel represents one field
+
+    - Transaction
+
+      Either all manipulations complete and commit or all manipulate rollback.
+
+      - features
+
+        - Atomicity 
+
+          Either success or fail
+
+        - Consistence 
+
+          State before execution equals state after execution
+
+        - Isolation 
+
+          - read uncomited -> dirty read -> read commited
+          - read commited -> non-repeatable read -> repeatable read
+          - repeatable read -> phantom /ˈfan(t)əm/ read -> serialize
+
+        - Durability 
+
+          Once commit, the change are permanent
+
+    - Connection Pool
+
+      Create a "buffer pool" for database connections. Put a certain number of connections in the buffer pool in advance. When you need to establish a database connection, you only need to take one out of the "buffer pool" and put it back after use, which simplify database management and improve efficiency.
 
 - Spring
 
