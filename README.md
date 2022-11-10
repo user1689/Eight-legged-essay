@@ -366,11 +366,11 @@ loading...
 
   - Phenomenon -> indicators before solving problem
 
-    
+    - 
 
   - How to troubleshoot
 
-    
+    - Logic
 
   - indicators after solving problem
 
@@ -378,6 +378,51 @@ loading...
 
 - CPU Soars
 
+  - Time
+
+    
+
+  - Phenomenon -> indicators before solving problem
+
+    - 
+
+  - How to troubleshoot
+
+    - Logic
+
+  - indicators after solving problem
+
+    
+
 - Memory Leaking
 
+  - Time
+
+  - Phenomenon -> indicators before solving problem
+
+    - 
+
+  - How to troubleshoot
+
+    - Logic
+
+  - indicators after solving problem
+
+    
+
 - Full GC
+
+  - Time
+
+  - Phenomenon -> indicators before solving problem
+
+    - 
+
+  - How to troubleshoot
+
+    - Logic
+
+  - indicators after solving problem
+
+    
+
