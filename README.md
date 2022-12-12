@@ -180,6 +180,22 @@ loading...
 
 #### DB
 
+- Normal Forms in DBMS
+
+  - First Normal Form
+
+    All field values are non-decomposable atomic values.
+
+  - Second Normal Form
+
+    No partial dependency, no non-prime attribute (attributes which are not part of any candidate key) is dependent on any proper subset of any candidate key of the table.
+
+  - Third Normal Form
+
+    No transitive dependency for non-prime attributes.
+
+  > https://www.geeksforgeeks.org/normal-forms-in-dbms/
+
 - MySql
 
 #### MiddleWare
