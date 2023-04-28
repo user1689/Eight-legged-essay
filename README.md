@@ -163,13 +163,37 @@ loading...
   - Servlet
 
     - MVC Model
-    - DispatcherServlet
-
+  
 - Spring
+
+  - IOC
+    - Denpendency Injection
+  - AOP
 
 - SpringMVC
 
+  - DispatcherServlet
+
+  - Exception
+
+    1. invoke handleExceptionResolver() and iterate List figuring out which resolver can be used.
+
+       - DefaultErrorAttributes 
+       - HandlerExceptionResolverComposite
+         - ExceptionHandlerExceptionResolver -> @ControllerAdvice + @ExceptionHandler
+         - ResponseStatusExceptionResolver -> @ReponseStatus
+         - DefaultHandlerExceptionResolver -> handle SpringMVC internal exception, eg: MissingArgumentsException
+
+       - customized class implements HandlerExceptionResolver
+
+    2. No resolver can handler current exception -> Tomcat will invoke sendError()
+    3. BasicController registered by ErrorMvcAutoConfiguration will use ErrorViewResolver figure out ViewName, then decide which page need be response.
+
 - SpringBoot
+
+  - x
+  - x
+  - x
 
 - SpringSecurity
 
@@ -211,9 +235,9 @@ loading...
 #### NetWork
 
 - `Tcp` 
-  
   - 3-way handshake and 4-way handshake  
   - additive-increase/multiplicative-decrease (AIMD)  
+- `UDP`
 
 
 - `Http` 
